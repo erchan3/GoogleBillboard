@@ -2,7 +2,6 @@ public final static String e = "2.7182818284590452353602874713526624977572470936
 public void setup()  
 {            
   String digits = e.replace(".", "");
-  System.out.println(digits);
   for (int i = 0; i < digits.length() - 10; i++)
   {
     double num = Double.parseDouble(digits.substring(i, i + 10));
